@@ -10,14 +10,14 @@ public class Ejercicio25 {
    
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        String numeroReves = "";
+        String numeroRevese = "";
         System.out.println("Introduce el numero");
-        String numero = s.nextLine();
+        String numeroa = s.nextLine();
         
-        for (int i =numero.length()-1; i >= 0; i--) {
-           numeroReves = numeroReves + numero.charAt(i);
+        for (int i =numeroa.length()-1; i >= 0; i--) {
+           numeroRevese = numeroRevese + numeroa.charAt(i);
         }
-        System.err.println(numeroReves);
+        System.err.println(numeroRevese);
     }
     
 }
